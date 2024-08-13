@@ -6,11 +6,11 @@
 }
 
 .hero {
-    height:100dvh;
+    height:150vh;
     width:100%;
     background-image: url('mainpicture.jpg.JPG');
-    background-size:65%;
-    background-position:center
+    background-size:cover;
+    background-position: center;
 }
 nav{
     display:flex;
@@ -40,7 +40,7 @@ padding: 10px 25px;
         text-transform: capitalize;
     }
     nav ul li a:hover{
-    color: #f9004d;
+    color: red;
         transition: .4s; }
 .content{
   position: absolute;  
@@ -48,4 +48,53 @@ padding: 10px 25px;
   left: 8%;
   transform: translateY(-50%);
   color:white;
+}
+h1{
+   color: white;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+h3{
+    color:white;
+    font-size:25px;
+    margin-bottom:50px;
+}
+.bio{
+    width:100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.bio img{
+height:auto;
+width: 430px;
+}
+.bio-text{
+width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+justify-content:space-around;
+}
+.bio-text h2{
+color: #f9004d;
+font-size:75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.bio-text{
+    color:#fff;
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:45px;
+}
+.bio-text span{
+    color: #fff;
+    font-size:75px;
+text-transform: capitalize;
+margin-bottom: 20px;
 }
