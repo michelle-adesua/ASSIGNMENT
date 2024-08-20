@@ -2,9 +2,7 @@
     background-color: black;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
+    box-sizing: border-box;}
 .hero {
     height:150vh;
     width:100%;
@@ -97,4 +95,12 @@ margin-bottom: 20px;
     font-size:75px;
 text-transform: capitalize;
 margin-bottom: 20px;
+}
+.white{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+justify-content:space-around;
 }
