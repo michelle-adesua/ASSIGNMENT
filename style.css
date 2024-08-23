@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-.hero {
+.hero{
     height:150vh;
     width:100%;
     background-image: url('mainpicture.jpg.JPG');
@@ -96,11 +96,11 @@ margin-bottom: 20px;
 text-transform: capitalize;
 margin-bottom: 20px;
 }
-.white{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-justify-content:space-around;
+.weird{
+    height:150vh;
+    width:100%;
+    background-image: url('MOL_7336\ 2.JPG');
+    background-size:cover;
+    background-position:top;
+}
 }
