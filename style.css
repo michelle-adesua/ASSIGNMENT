@@ -17,6 +17,8 @@ nav{
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
+    position: sticky;
+    top: 0;
 }
 .logo{
     color: white;
@@ -96,11 +98,72 @@ margin-bottom: 20px;
 text-transform: capitalize;
 margin-bottom: 20px;
 }
-.weird{
-    height:150vh;
+.where{
     width:100%;
+    height: 150vh;
     background-image: url('MOL_7336\ 2.JPG');
-    background-size:cover;
-    background-position:top;
+    background-size: cover;
+    background-position:center;
 }
-}
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .born{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    justify-content:space-around;
+    }
+    .happy{
+        width:100%;
+        padding: 100px 0px;
+        background-color: #191919;
+    }
+    .happy img{
+    height:auto;
+    width: 50%;
+    justify-content: top;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .career-text{
+    width: 550px;
+
+    }
+    .career-text h3{
+        color: white;
+        font-size:75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        }
+        .career-text{
+            color:#fff;
+            letter-spacing: 1px;
+            line-height:28px;
+            font-size:18px;
+            margin-bottom:45px;
+        }
+        .career-text h3 span{
+            color:#f9004d;
+            background-color: transparent;
+            font-size:75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        }
+        .career-text p{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .weird{
+            position: sticky;
+            top: 0;
+        }
+        .woe{
+            align-content: top;
+
+        }
+
