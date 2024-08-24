@@ -19,6 +19,7 @@ nav{
     padding-right: 8%;
     position: sticky;
     top: 0;
+    z-index: 3;
 }
 .logo{
     color: white;
@@ -139,6 +140,7 @@ margin-bottom: 20px;
         font-size:75px;
         text-transform: capitalize;
         margin-bottom: 20px;
+        text-decoration: underline;
         }
         .career-text{
             color:#fff;
@@ -153,17 +155,19 @@ margin-bottom: 20px;
             font-size:75px;
         text-transform: capitalize;
         margin-bottom: 20px;
+        text-decoration: underline;
         }
         .career-text p{
             display: flex;
             flex-wrap: wrap;
         }
-        .weird{
-            position: sticky;
-            top: 0;
-        }
+
         .woe{
-            align-content: top;
-
+            width: 100%;
+            height:auto;
+            justify-content:bottom;
         }
-
+.flex{
+    display:grid;
+    grid-
+}
