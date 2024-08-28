@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;}
 .hero{
-    height:150vh;
+   height:150vh; 
     width:100%;
     background-image: url('mainpicture.jpg.JPG');
     background-size:cover;
@@ -28,7 +28,7 @@ nav{
     cursor: pointer;
 }
 span{
-    color: #f9004d;}
+    color: #0069d9;}
     nav ul li{
         list-style-type: none;
 display: inline-block;
@@ -41,7 +41,7 @@ padding: 10px 25px;
         text-transform: capitalize;
     }
     nav ul li a:hover{
-    color: red;
+    color: rgb(74, 74, 170);
         transition: .4s; }
 .content{
   position: absolute;  
@@ -81,7 +81,7 @@ width: 550px;
 justify-content:space-around;
 }
 .bio-text h2{
-color: #f9004d;
+color: #0069d9;
 font-size:75px;
 text-transform: capitalize;
 margin-bottom: 20px;
@@ -100,16 +100,13 @@ text-transform: capitalize;
 margin-bottom: 20px;
 }
 .where{
-    width:100%;
-    height: 150vh;
+    width:auto;
+    height: 50%;
     background-image: url('MOL_7336\ 2.JPG');
     background-size: cover;
     background-position:center;
 }
-    .flex{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     
     .born{
         width: 1130px;
@@ -150,7 +147,7 @@ margin-bottom: 20px;
             margin-bottom:45px;
         }
         .career-text h3 span{
-            color:#f9004d;
+            color:#0069d9;
             background-color: transparent;
             font-size:75px;
         text-transform: capitalize;
@@ -164,10 +161,96 @@ margin-bottom: 20px;
 
         .woe{
             width: 100%;
-            height:auto;
-            justify-content:bottom;
+            height:fit-content;
+background-image: url(MOL_7336\ 2.JPG);
+justify-content: space-around;
+border-width:5px;
+border-color: aqua;
         }
+
 .flex{
-    display:grid;
-    grid-
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .woe{
+    z-index: 3;
+  }
+  .writeup{
+    z-index:1;
+    left: 55px;
+    right:55px;
+  }
+  .writeup p{
+    color:#fff;
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:45px;
+  }
+  .writeup h3{
+    color: white;
+    font-size:75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    }
+    .writeup span{
+        color:#0069d9;
+        background-color: transparent;
+        font-size:75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    }
+  footer{
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 3rem;
+    color:#fff;
+    font-size:32px;
 }
+/*SERVICE SECTION START*/
+/* Services Area */ 
+.services-area{
+    background-color: #000;}
+
+.site-main .services-area{
+padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+padding: 0 14rem;
+color: #fff;
+}
+
+.site-main .services-area .services-title h1{
+font-size: 35px;
+}
+.text-uppercase title-text{
+color: #fff;
+}
+
+
+.site-main > .services-area .services{
+background: rgba(248, 252, 253, 0.973);
+padding: 2rem 0;
+width: 16rem;
+margin: 5rem .5rem;
+transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+box-shadow: var(--box-shadow);
+}
+.rowgrid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+card-title text-uppercase font-roboto
