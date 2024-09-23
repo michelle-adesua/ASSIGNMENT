@@ -1,161 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="./style.css" />
    
-    <link rel="stylesheet" href="style.css"
-    li
-</head>
-<body>
-    <nav>
-        <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="soji.html">Biography</a></li>
-            <li><a href="career.html">Career Path</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+      <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <div class="open">
+           <p>&#9776;</p>
+      </div>
+      <div class="close">
+       <p>&#128473;</p> 
+      </div>
+      <nav id="nav">
+        <ul class="navList">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="soji.html">Services</a></li>
+          <li><a href="career.html">Career Path</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
+
     <!--  ======================= Project Area =============================  -->
 
-     <section class="project-area">
-        <div class="container">
-            <div class="project-title pb-5">
-                <h1 class="text-uppercase title-h1">Recently Done Project</h1>
-                <h1 class="text-uppercase title-h1">Quality Work</h1>
-            </div>
-
-            <div class="button-group">
-                <button type="button" class="active" id="btn1" data-filter="*">All</button>
-                
-            </div>
-
-            <div class="rowgrid">
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p1.jpg">
-                                <img src="./portfolio/p1.jpg" alt="portfolio-1" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Minimal Design</h4>
-                            <span class="text-secondary">Latest, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p2.jpg">
-                                <img src="./portfolio/p2.jpg" alt="portfolio-2" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Beautiful socks</h4>
-                            <span class="text-secondary">Popular, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p3.jpg">
-                                <img src="./portfolio/p3.jpg" alt="portfolio-3" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Savory coffee</h4>
-                            <span class="text-secondary">Popular, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p4.jpg">
-                                <img src="./portfolio/p4.jpg" alt="portfolio-4" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Nike Air</h4>
-                            <span class="text-secondary">Completed, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p5.jpg">
-                                <img src="./portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Muliple fown</h4>
-                            <span class="text-secondary">Completed, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p6.jpg">
-                                <img src="./portfolio/p6.jpg" alt="portfolio-6" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Books</h4>
-                            <span class="text-secondary">Completed, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p7.jpg">
-                                <img src="./portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Sweet tea</h4>
-                            <span class="text-secondary">Completed, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p8.jpg">
-                                <img src="./portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Colour pens</h4>
-                            <span class="text-secondary">Completed, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                    <div class="our-project">
-                        <div class="img">
-                            <a class="test-popup-link" href="./portfolio/p9.jpg">
-                                <img src="./portfolio/p9.jpg" alt="portfolio-9" class="img-fluid">
-                            </a>
-                        </div>
-                        <div class="title py-4">
-                            <h4 class="text-uppercase">Camera Lens</h4>
-                            <span class="text-secondary">Completed, Portfolio</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="project-area">
+      <div class="container2">
+        <div class="project-title pb-5">
+          <h1 class="text-uppercase1">Recently Done Projects</h1>
+          <h1 class="text-uppercase2">Quality Work</h1>
         </div>
+
+        <div class="button-group">
+          <button type="button" class="active " id="btn1" data-filter="*">
+            All
+          </button>
+        </div>
+
+        <div class="rowgrid">
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p1.jpg">
+                  <img
+                    src="./portfolio/p1.jpg"
+                    alt="portfolio-1"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Minimal Design</h4>
+                <span class="text-secondary">Latest, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p2.jpg">
+                  <img
+                    src="./portfolio/p2.jpg"
+                    alt="portfolio-2"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Beautiful socks</h4>
+                <span class="text-secondary">Popular, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p3.jpg">
+                  <img
+                    src="./portfolio/p3.jpg"
+                    alt="portfolio-3"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Savory coffee</h4>
+                <span class="text-secondary">Popular, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p4.jpg">
+                  <img
+                    src="./portfolio/p4.jpg"
+                    alt="portfolio-4"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Nike Air</h4>
+                <span class="text-secondary">Completed, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p5.jpg">
+                  <img
+                    src="./portfolio/p5.jpg"
+                    alt="portfolio-5"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Muliple fown</h4>
+                <span class="text-secondary">Completed, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p6.jpg">
+                  <img
+                    src="./portfolio/p6.jpg"
+                    alt="portfolio-6"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Books</h4>
+                <span class="text-secondary">Completed, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p7.jpg">
+                  <img
+                    src="./portfolio/p7.jpg"
+                    alt="portfolio-7"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Sweet tea</h4>
+                <span class="text-secondary">Completed, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p8.jpg">
+                  <img
+                    src="./portfolio/p8.jpg"
+                    alt="portfolio-8"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Colour pens</h4>
+                <span class="text-secondary">Completed, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="./portfolio/p9.jpg">
+                  <img
+                    src="./portfolio/p9.jpg"
+                    alt="portfolio-9"
+                    class="img-fluid"
+                  />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Camera Lens</h4>
+                <span class="text-secondary">Completed, Portfolio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--  ======================= End Project Area =============================  -->
+    <footer>
+      <p>&copy; Michelle Soji-Adeyemi. All Rights Reserved.</p>
 
+      <p>
+        <span class="special"> michellecutie80@gmail.com </span>
+      </p>
 
-</body>
+      <p>Created by Soji-Adeyemi Michelle &reg;</p>
+    </footer>
+    <script src="./work.js"></script>
+  </body>
 </html>

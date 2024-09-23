@@ -3,104 +3,143 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!----hero section start---->
-    <div class="where">
-      <nav>
-        <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
+
+    <header>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <div class="open">
+           <p>&#9776;</p>
+      </div>
+      <div class="close">
+       <p>&#128473;</p> 
+      </div>
+      <nav id="nav">
+        <ul class="navList">
           <li><a href="index.html">Home</a></li>
-          <li><a href="soji.html">Biography</a></li>
+          <li><a href="soji.html">Services</a></li>
           <li><a href="career.html">Career Path</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
       </nav>
-    </div>
-       <!--  ====================== Start Services Area =============================  -->
+    </header>
 
-     <section class="services-area">
+    <!--  ====================== Start Services Area =============================  -->
+
+    <section class="services-area">
       <div class="container">
+        <div class="sad">
+          <div class="col-lg-12 text-center services-title">
+            <h1 class="text-uppercase title-text">Services Offers</h1>
+            <p class="para">
+              There are many services available that are provided by me, and
+              they are listed below.
+            </p>
+          </div>
+        </div>
+        <div class="container">
           <div class="row">
-              <div class="col-lg-12 text-center services-title">
-                  <h1 class="text-uppercase title-text">Services Offers</h1>
-                  <p class="para">
-                      There are many variations of passages of Lorem Ipsum available, but the majority have
-                      suffered alteration in some form, by injected humour
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="services">
+                <div class="sevices-img text-center py-4">
+                  <img src="icons\s1.png" alt="Services-1" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-uppercase font-roboto">
+                    Web developer
+                  </h5>
+                  <p class="card-text text-secondary">
+                    Web developers build websites that meet their company’s or
+                    client’s needs.
                   </p>
+                </div>
               </div>
-          </div>
-          <div class="container services-list">
-              <div class="row">
-                  <div class="col-lg-3 col-md-6 col-sm-12">
-                      <div class="services">
-                          <div class="sevices-img text-center py-4">
-                              <img src="./img/services/s1.png" alt="Services-1">
-                          </div>
-                          <div class="card-body text-center">
-                              <h5 class="card-title text-uppercase font-roboto">Web developer</h5>
-                              <p class="card-text text-secondary">
-                                Web developers build websites that meet their company’s or client’s needs.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12">
-                      <div class="services">
-                          <div class="sevices-img text-center py-4">
-                              <img src="./img/services/s2.png" alt="Services-2">
-                          </div>
-                          <div class="card-body text-center">
-                              <h5 class="card-title text-uppercase font-roboto">ux/ui design</h5>
-                              <p class="card-text text-secondary">
-                                  Some quick example text to build on the card
-                                  title and make up
-                                  the bulk of the card's content.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12">
-                      <div class="services">
-                          <div class="sevices-img text-center py-4">
-                              <img src="./img/services/s3.png" alt="Services-3">
-                          </div>
-                          <div class="card-body text-center">
-                              <h5 class="card-title text-uppercase font-roboto">web design</h5>
-                              <p class="card-text text-secondary">
-                                  Some quick example text to build on the card
-                                  title and make up
-                                  the bulk of the card's content.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12">
-                      <div class="services">
-                          <div class="sevices-img text-center py-4">
-                              <img src="./img/services/s4.png" alt="Services-4">
-                          </div>
-                          <div class="card-body text-center">
-                              <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
-                              <p class="card-text text-secondary">
-                                  Some quick example text to build on the card
-                                  title and make up
-                                  the bulk of the card's content.
-                              </p>
-                          </div>
-                      </div>
-                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="services">
+                <div class="sevices-img text-center py-4">
+                  <img src="icons\s2.png" alt="Services-2" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-uppercase font-roboto">
+                    ux/ui design
+                  </h5>
+                  <p class="card-text text-secondary">
+                    Transform your vision into a seamless user experience with
+                    my expertise.
+                  </p>
+                </div>
               </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="services">
+                <div class="sevices-img text-center py-4">
+                  <img src="icons\s3.png" alt="Services-3" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-uppercase font-roboto">
+                    web design
+                  </h5>
+                  <p class="card-text text-secondary">
+                    I offer custom, SEO-friendly, and responsive websites for
+                    businesses worldwide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="services">
+                <div class="sevices-img text-center py-4">
+                  <img src="icons\s4.png" alt="Services-4" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-uppercase font-roboto">
+                    seo optimize
+                  </h5>
+                  <p class="card-text text-secondary">
+                    Search engine optimization (SEO) is a set of practices
+                    designed to improve the appearance and positioning of web
+                    pages in organic search results.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-  </section>
+    </section>
+    <footer>
+      <p>&copy; Michelle Soji-Adeyemi. All Rights Reserved.</p>
 
-  <!--  ====================== End Services Area =============================  -->
-</body>
+      <p>
+        <span class="special"> michellecutie80@gmail.com </span>
+      </p>
+
+      <p>Created by Soji-Adeyemi Michelle &reg;</p>
+    </footer>
+
+    <!--  ====================== End Services Area =============================  -->
+  </body>
+  <script src="./work.js"></script>
 </html>
